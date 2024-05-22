@@ -47,7 +47,7 @@ function Novbar() {
             <img
               width="50"
               height="50"
-              src="/src/images/image-avatar.png"
+              src="/image-avatar.png"
               alt=""
             />
           </button>
@@ -61,7 +61,7 @@ function Novbar() {
             )) || (
               <div className="nav__cart__avatar__yesproduct">
                 <img
-                  src="/src/images/image-product-1.jpg"
+                  src="/image-product-1.jpg"
                   width="50"
                   height="50"
                   alt=""
