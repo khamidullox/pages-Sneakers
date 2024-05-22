@@ -15,7 +15,7 @@ function Info() {
         <p className="main__img">
           <img
             className="main__img__previe"
-            src="/image-product-1.jpg"
+            src="/public/image-product-1.jpg"
             width="450"
             height="450"
             alt=""
@@ -26,7 +26,7 @@ function Info() {
                 <img
                   width="88"
                   height="88"
-                  src="/image-product-1.jpg"
+                  src="/public/image-product-1.jpg"
                   alt=""
                 />
               </a>
@@ -37,7 +37,7 @@ function Info() {
                 <img
                   width="88"
                   height="88"
-                  src="/image-product-2.jpg"
+                  src="/public/image-product-2.jpg"
                   alt=""
                 />
               </a>
@@ -48,7 +48,7 @@ function Info() {
                 <img
                   width="88"
                   height="88"
-                  src="/image-product-3.jpg"
+                  src="/public/image-product-3.jpg"
                   alt=""
                 />
               </a>
@@ -59,7 +59,7 @@ function Info() {
                 <img
                   width="88"
                   height="88"
-                  src="/image-product-4.jpg"
+                  src="/public/image-product-4.jpg"
                   alt=""
                 />
               </a>
