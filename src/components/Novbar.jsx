@@ -17,7 +17,7 @@ function Novbar() {
             {" "}
             <img
               className="nav__name-title"
-              src="/public/images/logo.svg"
+              src="/src/images/logo.svg"
               alt=""
             />
           </Link>
@@ -51,7 +51,7 @@ function Novbar() {
             <img
               width="50"
               height="50"
-              src="/public/images/image-avatar.png"
+              src="/src/images/image-avatar.png"
               alt=""
             />
           </button>
@@ -65,7 +65,7 @@ function Novbar() {
             )) || (
               <div className="nav__cart__avatar__yesproduct">
                 <img
-                  src="/public/images/image-product-1.jpg"
+                  src="/src/images/image-product-1.jpg"
                   width="50"
                   height="50"
                   alt=""
