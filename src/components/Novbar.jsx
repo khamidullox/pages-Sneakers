@@ -15,11 +15,7 @@ function Novbar() {
         <h4 className="nav__title">
           <Link to="/">
             {" "}
-            <img
-              className="nav__name-title"
-              src="/src/images/logo.svg"
-              alt=""
-            />
+            <img className="nav__name-title" src="/logo.svg" alt="" />
           </Link>
         </h4>
         <ul className="nav__list">
