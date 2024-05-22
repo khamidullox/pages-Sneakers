@@ -44,12 +44,7 @@ function Novbar() {
         </button>
         <div class="dropdown">
           <button class="dropbtn">
-            <img
-              width="50"
-              height="50"
-              src="/image-avatar.png"
-              alt=""
-            />
+            <img width="50" height="50" src="/image-avatar.png" alt="" />
           </button>
           <div class="dropdown-content">
             <h5>Cart</h5>
@@ -60,12 +55,7 @@ function Novbar() {
               </div>
             )) || (
               <div className="nav__cart__avatar__yesproduct">
-                <img
-                  src="/image-product-1.jpg"
-                  width="50"
-                  height="50"
-                  alt=""
-                />
+                <img src="/image-product-1.jpg" width="50" height="50" alt="" />
                 <div className="nav__cart__price">
                   <p>Fall Limited Edition Sneakers</p>
                   <span>

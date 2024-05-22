@@ -165,6 +165,7 @@
 .nav__cart__avatar__yesproduct {
   padding: 1rem;
   width: 25rem;
+ 
 }
 .nav__cart__avatar__yesproduct img {
   border-radius: 1rem;
@@ -197,4 +198,10 @@ span {
 .trash {
   background-color: transparent;
   border: none;
+}
+.img-btn {
+  width: 8.8rem;
+  height: 8.8rem;
+  border: none;
+  cursor: pointer;
 }

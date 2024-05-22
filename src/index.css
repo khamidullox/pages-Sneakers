@@ -44,10 +44,9 @@ body {
 }
 #root {
   width: 100%;
-  /* max-width: 115.2rem; */
+  max-width: 115.2rem;
   margin-left: auto;
   margin-right: auto;
   padding-left: 2rem;
   padding-right: 2rem;
 }
-

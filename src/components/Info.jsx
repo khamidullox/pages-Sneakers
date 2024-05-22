@@ -7,6 +7,7 @@ import { LuTrash2 } from "react-icons/lu";
 function Info() {
   const { value, totalvalue } = useSelector((state) => state.counter);
   let [counter, setCounter] = useState(1);
+  let [img, setImg] = useState(1);
   const dispatch = useDispatch();
   let price = 125.0;
   return (
@@ -15,34 +16,79 @@ function Info() {
         <p className="main__img">
           <img
             className="main__img__previe"
-            src="/image-product-1.jpg"
+            src={`/image-product-${img}.jpg`}
             width="450"
             height="450"
             alt=""
           />
           <ul className="main-list-img">
-            <li>
-              <a href="#">
-                <img width="88" height="88" src="/image-product-1.jpg" alt="" />
-              </a>
+            <li className="li">
+              <button
+                onClick={() => {
+                  setImg(1);
+                }}
+                className="img-btn"
+                href="#"
+              >
+                <img
+                  width="88"
+                  height="88"
+                  src={`/image-product-1.jpg`}
+                  className=""
+                  alt=""
+                />
+              </button>
             </li>
             <li>
-              <a href="#">
-                {" "}
-                <img width="88" height="88" src="/image-product-2.jpg" alt="" />
-              </a>
+              <button
+                onClick={() => {
+                  setImg(2);
+                }}
+                className="img-btn"
+                href="#"
+              >
+                <img
+                  width="88"
+                  height="88"
+                  src={`/image-product-2.jpg`}
+                  className=""
+                  alt=""
+                />
+              </button>
             </li>
             <li>
-              <a href="#">
-                {" "}
-                <img width="88" height="88" src="/image-product-3.jpg" alt="" />
-              </a>
+              <button
+                onClick={() => {
+                  setImg(3);
+                }}
+                className="img-btn"
+                href="#"
+              >
+                <img
+                  width="88"
+                  height="88"
+                  src={`/image-product-3.jpg`}
+                  className=""
+                  alt=""
+                />
+              </button>
             </li>
             <li>
-              <a href="#">
-                {" "}
-                <img width="88" height="88" src="/image-product-4.jpg" alt="" />
-              </a>
+              <button
+                onClick={() => {
+                  setImg(4);
+                }}
+                className="img-btn"
+                href="#"
+              >
+                <img
+                  width="88"
+                  height="88"
+                  src={`/image-product-4.jpg`}
+                  className=""
+                  alt=""
+                />
+              </button>
             </li>
           </ul>
         </p>
